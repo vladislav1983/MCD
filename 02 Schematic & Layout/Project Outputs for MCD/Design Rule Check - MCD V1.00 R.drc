@@ -1,0 +1,35 @@
+Protel Design System Design Rule Check
+PCB File : C:\Documents and Settings\maker_1\Desktop\MCD\02 Schematic & Layout\MCD V1.00 R.00.PcbDoc
+Date     : 08.9.2010 ã.
+Time     : 23:54:51
+
+Processing Rule : Un-Connected Pin Constraint ( (Not All) )
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.45mm) (Max=5mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.3mm) (Max=4mm) (Preferred=0.5mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=1mm) (InNamedPolygon('GND_ANA_POUR')),(Not (InNet('GND_ANA')) And All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (InNamedPolygon('GND_ANA_POLY_2')),(Not (InNet(GND_ANA)) And All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (InNamedPolygon('GND_DIG_POLY')),(Not(InNet(GND_DIG)) And  All)
+Rule Violations :0
+
+
+Violations Detected : 0
+Time Elapsed        : 00:00:01

@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [MCD.PrjPcb]
+   Generated File[MCD V1.TXT]
+   Generated File[MCD V1.00 R.00.DRL]
+   Generated File[MCD V1.00 R.00.LDP]
+   Generated File[MCD V1.00 R.00.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 23:37:31 On 15.9.2010 ã.

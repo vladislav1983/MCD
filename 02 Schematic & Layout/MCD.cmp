@@ -1,0 +1,76 @@
+Component Name : DSPIC30F6015T-30I/PT
+
+Part Count : 2
+
+Part : U?
+     Pins - (Normal) : 0
+          Hidden Pins : 
+
+Part : U?
+     Pins - (Normal) : 64
+          PWM3H/RE5      1              Output
+          PWM4L/RE6      2              IO
+          PWM4H/RE7      3              IO
+          SCK2/CN8/RG6   4              Input
+          SDI2/CN9/RG7   5              Input
+          SDO2/CN10/RG8  6              Input
+          M\C\L\R\       7              Input
+          S\S\2\/CN11/RG98              Input
+          VSS            9              Power
+          VDD            10             Power
+          AN5/QEB/IC8/CN7/RB511             Input
+          AN4/QEA/IC7/CN6/RB412             Input
+          AN3/INDX/CN5/RB313             Input
+          AN2/S\S\1\/CN4/RB214             Input
+          AN1/VREF-/CN3/RB115             Input
+          AN0/VREF+/CN2/RB016             Input
+          PGC/EMUC/AN6/OCFA/RB617             IO
+          PGD/EMUD/AN7/RB718             IO
+          AVDD           19             Power
+          AVSS           20             Power
+          AN8/RB8        21             IO
+          AN9/RB9        22             IO
+          AN10/RB10      23             IO
+          AN11/RB11      24             IO
+          VSS            25             Power
+          VDD            26             Power
+          AN12/RB12      27             IO
+          AN13/RB13      28             IO
+          AN14/RB14      29             IO
+          AN15/OCFB/CN12/RB1530             IO
+          U2RX/CN17/RF4  31             Output
+          U2TX/CN18/RF5  32             Output
+          EMUD3/U1TX/SDO1/RF333             Output
+          U1RX/SDI1/RF2  34             Input
+          EMUC3/SCK1/INT0/RF635             IO
+          SDA/RG3        36             IO
+          SCL/RG2        37             IO
+          VDD            38             Power
+          OSC1/CLKI      39             Output
+          OSC2/CLKO/RC15 40             IO
+          VSS            41             Power
+          IC1/F\L\T\A\/INT1/RD842             Input
+          IC2/F\L\T\B\/INT2/RD943             Input
+          IC3/INT3/RD10  44             IO
+          IC4/INT4/RD11  45             IO
+          EMUC2/OC1/RD0  46             Output
+          EMUD1/SOSCI/T4CK/CN1/RC1347             IO
+          EMUC1/SOSCO/T1CK/CN0/RC1448             IO
+          EMUD2/OC2/RD1  49             Output
+          OC3/RD2        50             IO
+          OC4/RD3        51             IO
+          OC5/IC5/CN13/RD452             IO
+          OC6/IC6/CN14/RD553             IO
+          OC7/CN15/RD6   54             IO
+          OC8/UPDN/CN16/RD755             IO
+          VSS            56             Power
+          VDD            57             Power
+          C1RX/RF0       58             Output
+          C1TX/RF1       59             Output
+          PWM1L/RE0      60             Output
+          PWM1H/RE1      61             Output
+          PWM2L/RE2      62             Output
+          PWM2H/RE3      63             Output
+          PWM3L/RE4      64             Output
+          Hidden Pins : 
+

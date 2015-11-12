@@ -1,0 +1,5 @@
+Move Component Origin to Grid
+Filename     : C:\Documents and Settings\maker_1\Desktop\MCD\02 Schematic & Layout\MCD V1.00 R.00.PcbDoc
+Date         : 29.8.2010 ã.
+Time         : 22:32:07
+Time Elapsed : 00:00:00

@@ -1,0 +1,33 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: MCD V1.00 R.00.PcbDoc   15.9.2010 ã.  23:37:30
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : MCD V1.TXT
+EIA File   : MCD V1.00 R.00.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.5mm (19.685mil)        Round          192              9339.69 mm (367.70 Inch)
+T2        0.7mm (27.559mil)        Round          26               7744.08 mm (304.89 Inch)
+T3        0.71mm (27.953mil)       Round          15               7692.55 mm (302.86 Inch)
+T4        0.8mm (31.496mil)        Round          53               7928.90 mm (312.16 Inch)
+T5        0.9mm (35.433mil)        Round          34               7872.37 mm (309.94 Inch)
+T6        0.92mm (36.221mil)       Round          4                7495.50 mm (295.10 Inch)
+T7        1mm (39.37mil)           Round          5                7564.74 mm (297.82 Inch)
+T8        1.19mm (46.85mil)        Round          15               7879.68 mm (310.22 Inch)
+T9        1.2mm (47.244mil)        Round          10               7925.55 mm (312.03 Inch)
+T10       1.25mm (49.213mil)       Round          8                7676.68 mm (302.23 Inch)
+T11       1.27mm (50mil)           Round          18               8386.38 mm (330.17 Inch)
+T12       1.3mm (51.181mil)        Round          14               8030.82 mm (316.17 Inch)
+T13       1.4mm (55.118mil)        Round          23               7730.91 mm (304.37 Inch)
+T14       1.8mm (70.866mil)        Round          7                7761.94 mm (305.59 Inch)
+T15       2mm (78.74mil)           Round          2                7609.49 mm (299.59 Inch)
+T16       2.2mm (86.614mil)        Round          4                7635.07 mm (300.59 Inch)
+T17       2.3mm (90.551mil)        Round          2                7502.67 mm (295.38 Inch)
+T18       4.2mm (165.354mil)       Round          2                7712.60 mm (303.65 Inch)
+T19       4.2mm (165.354mil)       Round          6         NPTH   8411.66 mm (331.17 Inch)
+---------------------------------------------------------------------------
+Totals                                            440              149901.27 mm (5901.63 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

@@ -1,0 +1,7 @@
+DRC Rules Export File for PCB: C:\Documents and Settings\maker_1\Desktop\MCD\02 Schematic & Layout\MCD V1.00 R.00.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.94
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=11.81
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=39.37
+RuleKind=Clearance|RuleName=Clearance_2|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=Clearance_3|Scope=Board|Minimum=19.69
