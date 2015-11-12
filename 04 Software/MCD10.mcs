@@ -1,0 +1,305 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=D:\Projects\MCD\04 Software\src\hex\DigitalIO.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File001]
+Location=D:\Projects\MCD\04 Software\src\hex\eeprom.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File002]
+Location=D:\Projects\MCD\04 Software\src\hex\main.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File003]
+Location=D:\Projects\MCD\04 Software\src\hex\PARLIST.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File004]
+Location=D:\Projects\MCD\04 Software\src\hex\sirem.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File005]
+Location=D:\Projects\MCD\04 Software\src\hex\systmr.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File006]
+Location=D:\Projects\MCD\04 Software\src\hex\trace.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File007]
+Location=D:\Projects\MCD\04 Software\src\hex\vADC.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File008]
+Location=D:\Projects\MCD\04 Software\src\hex\vuart.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File009]
+Location=D:\Projects\MCD\04 Software\src\hex\statemachine.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File010]
+Location=D:\Projects\MCD\04 Software\src\hex\PWM.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File011]
+Location=D:\Projects\MCD\04 Software\src\hex\SVM.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File012]
+Location=D:\Projects\MCD\04 Software\src\hex\Measure.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File013]
+Location=D:\Projects\MCD\04 Software\src\hex\MathTools.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File014]
+Location=D:\Projects\MCD\04 Software\src\hex\Control_Openloop.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File015]
+Location=D:\Projects\MCD\04 Software\src\hex\ACIM.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File016]
+Location=D:\Projects\MCD\04 Software\src\hex\RampGen.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File017]
+Location=D:\Projects\MCD\04 Software\src\hex\task.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File018]
+Location=D:\Projects\MCD\04 Software\src\hex\traps.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File019]
+Location=D:\Projects\MCD\04 Software\src\hex\vPID.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File020]
+Location=D:\Projects\MCD\04 Software\src\hex\IDENT.o
+Folder=Intermediary
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -O1
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File021]
+Location=D:\Projects\MCD\04 Software\.\src\hex\MCD10.cof
+Folder=Output
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-ld.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[File022]
+Location=D:\Projects\MCD\04 Software\.\src\hex\MCD10.hex
+Folder=Output
+DeviceName=dsPIC30F6015
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-ld.exe
+PPAD=$(BINDIR)|.\src\hex||$(TMPDIR)|.\src\hex||$(AINDIR)||$(INCDIR)|.\src\Common;.\src\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|src\DigitalIO.c|src\eeprom.c|src\main.c|src\PARLIST.c|src\sirem.c|src\systmr.c|src\trace.c|src\vADC.c|src\vuart.c|src\statemachine.c|src\PWM.C|src\SVM.C|src\Measure.c|src\MathTools.c|src\Control_Openloop.c|src\ACIM.c|src\RampGen.c|src\task.c|src\traps.c|src\vPID.c|src\IDENT.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[TOOL_LOC_STAMPS]
+tool_loc{069BD372-6CA0-40D4-BF2F-5DC806D05083}=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+tool_loc{433C3D55-811D-409D-A6BF-159CF9355B42}=C:\Program Files\Microchip\mplabc30\v3.30\bin\pic30-ld.exe
