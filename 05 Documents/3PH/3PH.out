@@ -1,0 +1,216 @@
+
+**** 08/25/10 14:03:21 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ * C:\Documents and Settings\idss-laboratory\Desktop\3PH\3PH.sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 9.2
+* Wed Aug 25 12:01:31 2010
+
+
+
+** Analysis setup **
+.tran 0ns 10m
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "C:\Program Files\Orcad\Capture\Library\PSpice\nom.lib"
+.inc "C:\Program Files\Orcad\Capture\Library\PSpice\nom.lib"
+
+**** INCLUDING nom.lib ****
+* Library of standard devices: Analog and Digital
+
+*  Copyright Cadence Design Systems, Inc. 2000 All Rights Reserved.
+*
+*
+* $Revision:   1.3  $
+* $Author:   HIRASUNA  $
+* $Date:   11 May 2000 13:26:32  $
+
+* This "master library" file calls out the other libraries which we supply.
+* It takes time for PSpice to scan each library file.  PSpice creates an
+* index file, called <filename>.IND, to speed up the search process.
+* The index file is re-created whenever PSpice senses that it might be invalid.
+
+* If the library search times are too long, you may want to "comment out"
+* references to device libraries which you are not using.  Also, you can always
+* bypass the library approach and simply copy the model or subcircuit which you
+* need directly into your circuit file.
+
+* utility subcircuits and models 
+
+.lib "breakout.lib"             ; generic devices for schematic capture
+.lib "filtsub.lib"              ; Filter biquad stages and LC ladder branches
+.lib "tline.lib"                ; transmission line models and subcircuits
+
+* "regular" device libraries
+
+.lib "nom_dig.lib"              ; Digital (logic) devices - Requires "Digital Simulation"
+
+.lib "1_shot.lib"               ; Monostable Multivibrators
+.lib "ana_swit.lib"             ; Analog Switches
+.lib "anl_misc.lib"             ; Miscellaneous circuits
+.lib "bipolar.lib"              ; Bipolar transistors
+.lib "dc_prim.lib"              ; Primitive models for DAC & ADC Schematic models
+.lib "diode.lib"                ; Diodes
+.lib "darlngtn.lib"             ; Darlington transistors
+.lib "igbt.lib"                 ; IGBT transistors
+.lib "jfet.lib"                 ; JFET transistors
+.lib "linedriv.lib"             ; Line Drivers, Receivers and Transceivers
+.lib "opamp.lib"                ; Linear ICs: op-amps, voltage comparators,
+                                ; and voltage regulators
+.lib "magnetic.lib"             ; Non-linear transformer cores
+.lib "mix_misc.lib"             ; Miscellaneous circuits
+.lib "opto.lib"                 ; Optocouplers
+.lib "pwrbjt.lib"               ; Power bipolar transistors (BJTs)
+.lib "pwrmos.lib"               ; Power MOSFETs
+.lib "xtal.lib"                 ; Quartz crystals
+.lib "thyristr.lib"             ; Thyristors - Requires "Analog Behavioral Modeling"
+.lib "swit_rav.lib"             ; Average power supply models
+.lib "swit_reg.lib"             ; Switchmode regulator controller models
+
+* manufacturer's contributions
+
+.lib "vendor.lib"               ; Vendor supplied analog models
+
+* Japanese and European libraries
+
+* The following library files are installed if/when you choose to load 
+* the Japanese and/or European part libraries during installation.  Since 
+* there is no guarantee that the user will elect to install these library 
+* files, we have commented out these references so as not to cause a 
+* "Cannot find library" error in PSpice.  Please remove the "*" preceding the 
+* .lib reference to the library file(s) which you have installed.  
+* Please note that once you have edited this library file, PSpice will 
+* recreate the index file the first time [only] it is used.  Depending on 
+* the size of the library file, this process can take some time.
+
+
+.lib "japan.lib"              ; Japanese diodes, rectifiers, zeners,
+                               ; varactors, Schottky diodes, BJTs,
+                               ; JFETs, power BJTs, power MOSFETs, opamps.
+
+.lib "europe.lib"             ; European parts
+
+
+* end of library file
+
+**** RESUMING 3PH.cir ****
+.stmlib "C:\Program Files\Orcad\Capture\Library\PSpice\nom.lib"
+
+.INC "3PH.net"
+
+
+
+**** INCLUDING 3PH.net ****
+* Schematics Netlist *
+
+
+
+R_R1         $N_0001 0  1k  
+R_R3         $N_0002 0  1k  
+R_R2         $N_0003 0  1k  
+V_Vu         $N_0001 0 DC 0 AC 0
++SIN 0 310 100 0 0 0
+V_Vv         $N_0003 0 DC 0 AC 0
++SIN 0 310 100 0 0 120
+V_Vw         $N_0002 0 DC 0 AC 0
++SIN 0 310 100 0 0 240
+
+**** RESUMING 3PH.cir ****
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END
+
+**** 08/25/10 14:03:21 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ * C:\Documents and Settings\idss-laboratory\Desktop\3PH\3PH.sch
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($N_0001)    0.0000                   ($N_0002)    0.0000                       
+
+($N_0003)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Vu         0.000E+00
+    V_Vv         0.000E+00
+    V_Vw         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+**** 08/25/10 14:03:21 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ * C:\Documents and Settings\idss-laboratory\Desktop\3PH\3PH.sch
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+**** 08/25/10 14:03:21 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ * C:\Documents and Settings\idss-laboratory\Desktop\3PH\3PH.sch
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($N_0001)    0.0000                   ($N_0002) -268.4700                       
+
+($N_0003)  268.4700                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Vu         0.000E+00
+    V_Vv        -2.685E-01
+    V_Vw         2.685E-01
+
+    TOTAL POWER DISSIPATION   1.44E+02  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .05
+

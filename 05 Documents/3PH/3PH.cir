@@ -1,0 +1,24 @@
+* C:\Documents and Settings\idss-laboratory\Desktop\3PH\3PH.sch
+
+* Schematics Version 9.2
+* Wed Aug 25 12:01:31 2010
+
+
+
+** Analysis setup **
+.tran 0ns 10m
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "C:\Program Files\Orcad\Capture\Library\PSpice\nom.lib"
+.inc "C:\Program Files\Orcad\Capture\Library\PSpice\nom.lib"
+.stmlib "C:\Program Files\Orcad\Capture\Library\PSpice\nom.lib"
+
+.INC "3PH.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END

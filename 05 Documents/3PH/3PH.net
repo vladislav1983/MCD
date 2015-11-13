@@ -1,0 +1,13 @@
+* Schematics Netlist *
+
+
+
+R_R1         $N_0001 0  1k  
+R_R3         $N_0002 0  1k  
+R_R2         $N_0003 0  1k  
+V_Vu         $N_0001 0 DC 0 AC 0
++SIN 0 310 100 0 0 0
+V_Vv         $N_0003 0 DC 0 AC 0
++SIN 0 310 100 0 0 120
+V_Vw         $N_0002 0 DC 0 AC 0
++SIN 0 310 100 0 0 240
